@@ -6,6 +6,13 @@
                 <center>Data Warga Kampung ABC.</center>
             </h2>
 
+
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="<?= site_url('crudprint/createform') ?>"><button type="button" class="btn btn-primary btn-lg">Tambah</button></a>
+                </div>
+            </div><br>
+
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
