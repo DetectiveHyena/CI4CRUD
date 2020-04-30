@@ -39,33 +39,42 @@ class Crudprint extends BaseController
 	public function create()
 	{
 		helper('form');
-		$model = new CrudprintModel();
-
 		$data = [
 			'title' => 'CRUD DATA PADA CI 4.',
 		];
 
-		if (!$this->validate([
-			'nama' => 'required|min_length[3]|max_length[30]',
-			'alamat'  => 'required',
-			'notelp'  => 'required'
-		])) {
-			echo view('header', $data);
-			echo view('createform');
-			echo view('footer');
-		} else {
-			$model->save([
 
-				'nama' => $this->request->getVar('nama'),
-				'alamat' => $this->request->getVar('alamat'),
-				'notelp' => $this->request->getVar('notelp'),
-				'gambar' => 'defa.jpg'
+		if ($this->request->getMethod() == 'post') {
+			// validation 
+			$rules = [
+				'nama' => 'required|min_length[3]|max_length[30]',
+				'alamat'  => 'required',
+				'notelp'  => 'required'
+			];
 
-			]);
+			if (!$this->validate($rules)) {
+				$data['validation'] = $this->validator;
+			} else {
+
+				$model = new CrudprintModel();
+
+				$inserta = [
+
+					'nama' => $this->request->getVar('nama'),
+					'alamat' => $this->request->getVar('alamat'),
+					'notelp' => $this->request->getVar('notelp'),
+					'gambar' => 'defa.jpg'
+
+				];
+				$model->save($inserta);
+				$session = session();
+				$session->setFlashdata('success', 'Data Baru Sudah Masuk..');
+				return redirect()->to('/');
+			}
 		}
-		$session = session();
-        $session->setFlashdata('success', 'Data Baru Sudah Masuk..');
-        return redirect()->to('/');
+		echo view('header', $data);
+		echo view('createform');
+		echo view('footer');
 	}
 
 	//--------------------------------------------------------------------

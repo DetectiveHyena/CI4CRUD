@@ -19,6 +19,18 @@ class Validation
 		\CodeIgniter\Validation\CreditCardRules::class,
 	];
 
+	public $formvalidasi = [
+        'nama'     => 'required',
+        'alamat'     => 'required',
+        'notelp' => 'required',
+    ];
+
+    public $formvalidasi_errors = [
+        'nama' => [
+            'required'    => 'Isi nama Anda.',
+        ],
+    ];
+
 	/**
 	 * Specifies the views that are used to display the
 	 * errors.
