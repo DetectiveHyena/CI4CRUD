@@ -9,7 +9,7 @@ Aplikasi CRUD ini memiliki fitur sebagai berikut:
 
 Cara instalasi:
 1. Buat database yg bernama "crudci4"
-2. IMport tabel "warga"
+2. Import tabel "warga"
 3. Aktifkan web server terlebih dulu
 5. Jalankan perintah "php spark serve"
 
