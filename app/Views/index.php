@@ -14,14 +14,26 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <a href="<?= site_url('crudprint/createform') ?>"><button type="button" class="btn btn-primary btn-lg">Tambah</button></a>
+                    <a href="<?= site_url('crudprint/createform') ?>"><button type="button" class="btn btn-primary btn-lg">Tambah Data Warga</button></a>
                 </div>
             </div><br>
+            <div class="row justify-content-center">
+                <div class="col-md-8 ">
+                    <form action="/crudprint/caridata" method="post">
+                        <div class="input-group mb-3 ">
+                            <input type="text" class="form-control" name="cari" id="cari" autocomplete="off" autofocus placeholder="Isi NAMA/ALAMAT disini...">
+                            <div class="input-group-append">
+                                <button class="btn btn-success" type="submit" name="submit">Cari Sekarang</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col"></th>
                         <th scope="col">Nama</th>
                         <th scope="col">Alamat</th>
                         <th scope="col">Detail</th>
@@ -30,21 +42,26 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($wargas as $tambah => $warga) : ?>
+                    <?php $start = 0;
+                    foreach ($wargas as $warga) : ?>
                         <tr>
-                            <th scope="row"><?= $tambah + 1; ?></th>
+                            <th scope="row"> </th>
                             <td><?= $warga['nama'] ?></td>
                             <td><?= $warga['alamat'] ?></td>
-                            <td>Klik</td>
+                            <td><a href="<?= base_url('crudprint/datadetail/' . $warga['id']); ?>">Go to</a></td>
                             <td>
-                                <button type="button" class="btn btn-outline-warning">Update</button>
+                                <a href="<?= base_url('crudprint/edit/' . $warga['id']); ?>" type="button" class="btn btn-outline-warning">Update</a>
                             </td>
-                            <td><button type="button" class="btn btn-outline-danger">Hapus</button></td>
+                            <td><a href="<?= base_url('crudprint/deletedata/' . $warga['id']); ?>" type="button" class="btn btn-outline-danger " onclick="return confirm('Yakin mau Dihapus ?');">Hapus</a></td>
+
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
             </table>
 
+            <h5>Jumlah semua data = <?= $jmldata; ?></h5>
         </div>
+        <?= $pager->links('bootstrap', 'pager_bs') ?>
     </div>
+
 </div>

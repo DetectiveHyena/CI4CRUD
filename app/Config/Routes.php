@@ -33,6 +33,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Crudprint::index');
 $routes->match(['get', 'post'], 'crudprint/create', 'Crudprint::create');
+$routes->match(['get', 'post'], 'crudprint/detaildata/(:any)', 'Crudprint::detaildata');
+//$routes->get('crudprint/detaildata/(:any)', 'Crudprint::detaildata');
 
 
 

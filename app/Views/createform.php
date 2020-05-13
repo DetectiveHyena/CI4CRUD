@@ -5,14 +5,15 @@
       <h2 class="py-4 ml-4 center">
         <center>Formulir Tambah Data Warga Kampung ABC.</center>
       </h2>
+      <?php $validation = \Config\Services::validation(); ?>
       <form action="/crudprint/create" method="POST" enctype="multipart/form-data">
 
         <div class="form-group">
           <label for="examplenama">Nama</label>
-          <input type="text" class="form-control" name="nama" id="nama" value="" aria-describedby="namaHelp">
+          <input type="text" class="form-control" name="nama" id="nama" value="" autofocus aria-describedby="namaHelp">
           <small id="namaHelp" class="form-text text-muted">Tulis Nama Anda.</small>
         </div>
-        <?php if (isset($validation)) : ?>
+        <?php if ($validation->hasError('nama')) : ?>
           <div class="p-3 mb-2 bg-danger text-white" role="alert">
             <?= $validation->getError('nama'); ?>
           </div>
@@ -23,7 +24,7 @@
           <input type="text" class="form-control" name="alamat" id="alamat" value="" aria-describedby="emailHelp">
           <small id="emailHelp" class="form-text text-muted">Alamat Anda Sekarang.</small>
         </div>
-        <?php if (isset($validation)) : ?>
+        <?php if ($validation->hasError('alamat')) : ?>
           <div class="p-3 mb-2 bg-danger text-white" role="alert">
             <?= $validation->getError('alamat'); ?>
           </div>
@@ -34,7 +35,7 @@
           <input type="text" class="form-control" name="notelp" id="notelp" value="" aria-describedby="emailHelp">
           <small id="emailHelp" class="form-text text-muted">Tulis Nomor Telepon.</small>
         </div>
-        <?php if (isset($validation)) : ?>
+        <?php if ($validation->hasError('notelp')) : ?>
           <div class="p-3 mb-2 bg-danger text-white" role="alert">
             <?= $validation->getError('notelp'); ?>
           </div>
@@ -57,7 +58,8 @@
           </script>
         </div>
 
-        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" name="submit" class="btn btn-primary">Tambah</button>
+        <a href="<?= base_url('/'); ?>" class="btn btn-danger">Return Back.</a>
       </form>
 
     </div>

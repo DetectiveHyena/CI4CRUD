@@ -1,0 +1,364 @@
+CRITICAL - 2020-05-02 02:07:10 --> Too few arguments to function App\Controllers\Crudprint::updates(), 1 passed in /opt/lampp/htdocs/crudci4/system/CodeIgniter.php on line 914 and exactly 2 expected
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:08:58 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(121): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->edit('1')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:12:00 --> Too few arguments to function App\Controllers\Crudprint::updates(), 0 passed in /opt/lampp/htdocs/crudci4/system/CodeIgniter.php on line 914 and exactly 2 expected
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:13:55 --> Too few arguments to function App\Controllers\Crudprint::updates(), 0 passed in /opt/lampp/htdocs/crudci4/system/CodeIgniter.php on line 914 and exactly 2 expected
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:14:58 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(169): view('editdata')
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:15:37 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(169): view('editdata')
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:16:18 --> Undefined variable: id
+#0 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 129, Array)
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2020-05-02 02:16:37 --> Too few arguments to function App\Controllers\Crudprint::updates(), 0 passed in /opt/lampp/htdocs/crudci4/system/CodeIgniter.php on line 914 and exactly 2 expected
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:16:48 --> Too few arguments to function App\Controllers\Crudprint::updates(), 0 passed in /opt/lampp/htdocs/crudci4/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates()
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:36:33 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(169): view('editdata')
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('.6')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:37:18 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(169): view('editdata')
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('4')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:38:59 --> Undefined variable: wargas
+#0 /opt/lampp/htdocs/crudci4/app/Views/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 33, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(169): view('index')
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('5')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:40:32 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(170): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('5')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:49:19 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(173): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 02:53:45 --> Call to a member function getExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:54:25 --> Call to a member function getExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 02:55:18 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:00:45 --> Call to a member function getExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:09:38 --> Call to a member function getClientExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:17:22 --> Call to a member function getClientExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:17:58 --> Call to a member function getClientExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:18:01 --> Call to a member function getClientExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('2')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:27:06 --> syntax error, unexpected ']'
+#0 /opt/lampp/htdocs/crudci4/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/crudci4/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 03:27:28 --> Call to a member function getClientExtension() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->create()
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 03:29:54 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(121): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->edit('5')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 03:30:44 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(121): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->edit('6')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 03:33:07 --> Undefined variable: editwarga
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 6, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(121): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->edit('5')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 03:36:18 --> There is no data to {0}.
+#0 /opt/lampp/htdocs/crudci4/system/Model.php(802): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(165): CodeIgniter\Model->update(Array)
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('7')
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-05-02 03:36:50 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, string given, called in /opt/lampp/htdocs/crudci4/system/Model.php on line 838
+#0 /opt/lampp/htdocs/crudci4/system/Model.php(838): CodeIgniter\Model->doProtectFields('7')
+#1 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(165): CodeIgniter\Model->update(Array, '7')
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('7')
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-05-02 03:50:21 --> There is no data to {0}.
+#0 /opt/lampp/htdocs/crudci4/system/Model.php(802): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(169): CodeIgniter\Model->update(Array)
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('3')
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2020-05-02 04:14:24 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/crudci4/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('crudprint/edit/...')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('crudprint/edit/...')
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2020-05-02 04:31:12 --> Undefined variable: validation
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 9, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(112): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->edit('17')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 04:31:47 --> Undefined variable: validation
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 9, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(112): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->edit('12')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 04:32:59 --> Array to string conversion
+#0 /opt/lampp/htdocs/crudci4/app/Views/editdata.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 11, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('editdata', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(166): view('editdata', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('13')
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-02 22:19:21 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('18')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 22:24:41 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 22:25:21 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 22:26:50 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 22:28:19 --> Function name must be a string
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2020-05-02 22:28:41 --> Undefined index: gambar
+#0 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 148, Array)
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2020-05-02 22:30:40 --> Undefined index: gambar
+#0 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 148, Array)
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2020-05-02 22:34:52 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->updates('1')
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#5 {main}

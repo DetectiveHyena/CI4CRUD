@@ -1,0 +1,27 @@
+CRITICAL - 2020-05-07 17:20:16 --> Undefined variable: page
+#0 /opt/lampp/htdocs/crudci4/app/Views/index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 53, Array)
+#1 /opt/lampp/htdocs/crudci4/system/View/View.php(246): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/crudci4/system/Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#3 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(28): view('index', Array)
+#4 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->index()
+#5 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#6 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#9 {main}
+CRITICAL - 2020-05-07 17:39:50 --> Argument 1 passed to CodeIgniter\Model::paginate() must be of the type integer or null, object given, called in /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php on line 24
+#0 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(24): CodeIgniter\Model->paginate(Object(App\Models\CrudprintModel))
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->index()
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2020-05-07 17:40:25 --> Argument 1 passed to CodeIgniter\Model::paginate() must be of the type integer or null, object given, called in /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php on line 24
+#0 /opt/lampp/htdocs/crudci4/app/Controllers/Crudprint.php(24): CodeIgniter\Model->paginate(Object(App\Models\CrudprintModel))
+#1 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(914): App\Controllers\Crudprint->index()
+#2 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crudprint))
+#3 /opt/lampp/htdocs/crudci4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/crudci4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/crudci4/system/Commands/Server/rewrite.php(34): require_once('/opt/lampp/htdo...')
+#6 {main}
